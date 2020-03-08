@@ -22,8 +22,9 @@ on:
     types: [started]
 
 env:
-  REPO_URL: https://github.com/Lienol/openwrt
-  REPO_BRANCH: dev-master
+  REPO_URL: https://github.com/Cabbage7th/openwrt
+#REPO_BRANCH: dev-master
+  REPO_BRANCH: dev-19.07
   CONFIG_FILE: .config
   DIY_SH: diy.sh
   FREE_UP_DISK: true
